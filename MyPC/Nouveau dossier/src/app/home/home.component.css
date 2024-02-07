@@ -1,0 +1,92 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.btn-primary {
+  background-color: #ffd600;
+  border: none;
+  color: #000000;
+}
+
+.btn-secondary {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.slider-dots svg {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.slider-dots .active {
+  color: #f6d328;
+}
+
+i.fas {
+  font-size: 2rem;
+  margin: 0 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.slider-dots svg:hover {
+  color: #f6d328;
+}
